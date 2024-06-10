@@ -1,0 +1,127 @@
+/* CSS untuk template halaman dokumentasi API Apple */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Navigation bar styles  */
+  /* .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+  } */
+  
+  /* .navbar-brand {
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  } */
+  
+  /* .navbar-nav .nav-item {
+    margin-left: 10px;
+  } */
+  
+  .navbar-nav .nav-link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-image: linear-gradient(rgba(0,0,0,0.5)0%, rgba(0,0,0,0.8) 80%), url("../image/background.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 145px 0;
+    text-align: center;
+    align-items: center;
+    height: 32rem;
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .hero .btn-primary {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  /* Product section styles */
+  .products {
+    padding: 50px 0;
+    background-color: #fff;
+  }
+  
+  .products h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .products .card {
+    border: none;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .products .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .products .card-img-top {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .products .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .products .card-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .products .btn-primary {
+    background-color: #a887ab;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+ .list-group-item #section1 {
+    color: #c8b7c9;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  
